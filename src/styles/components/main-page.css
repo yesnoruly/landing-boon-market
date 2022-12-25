@@ -1,0 +1,43 @@
+.main-page {
+    padding: 0 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 850px;
+    text-align: center;
+
+    background-image: url('../../image/main-page.jpg');
+    background-size: cover;
+}
+
+/* Title */
+
+.main-page__title {
+    max-width: 515px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 1px;
+
+    color: #343434;
+}
+
+/* Link */
+
+.main-page__link {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    min-width: 240px;
+    line-height: 58px;
+    margin-top: 52px;
+    
+    color: #343434;
+    background: #FABAA0;
+    border-radius: 8px;
+}

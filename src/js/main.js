@@ -1,1 +1,1 @@
-// Your code
+import './shop-filter';

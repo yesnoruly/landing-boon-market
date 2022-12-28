@@ -1,6 +1,4 @@
 <!-- 
-    import tip
-
     <include src="partials/shop-item.html">
         {
             "id": "",
@@ -14,7 +12,7 @@
     </include>
  -->
 
-<div class="shop-item {{ id }}">
+<article class="shop-item {{ id }}">
     <img src="{{ src }}" alt="{{ alt }}" class="shop-item__img">
     <p class="shop-item__subtitle">{{ subtitle }}</p>
     <p class="shop-item__title">{{ title }}</p>
@@ -23,4 +21,4 @@
         <p class="shop-item__price">{{ price }}</p>
         <span class="shop-item__giveback">{{ giveback }} Giveback</span>
     </div>
-</div>
+</article>

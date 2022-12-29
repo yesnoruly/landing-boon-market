@@ -1,30 +1,44 @@
 .impact {
     display: grid;
-    align-items: center;
-    text-align: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(6, 1fr);
 
-    max-width: 1110px;
-    min-height: 210px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 
+    min-height: 210px;
     background: #708D92;
-    color: #fff;
+
+    margin-top: -120px;
 }
 
-.impact>div {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    border: 1px solid #FFFFFF;
+.impact__content,
+.impact__count,
+.impact__header,
+.impact__link {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    empty-cells: hide;
 }
 
 .impact__content,
 .impact__count {
-    padding: 2px;
+    border-right: 0;
+}
+
+.impact__link {
+    border-top: 0;
+}
+
+/* Content */
+
+.impact__content {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 
 /* Title */
@@ -32,56 +46,79 @@
 .impact__title {
     font-size: 24px;
     line-height: 34px;
-    text-align: center;
     letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
-.impact__subtitle {
-    max-width: 206px;
-    margin: 25px auto 0;
+/* Subtitle */
 
+.impact__subtitle {
     font-size: 12px;
     line-height: 22px;
-
+    color: #FFFFFF;
 }
 
 /* Count */
 
+.impact__count {
+    grid-row: 1 / 3;
+    grid-column: 3 / 5;
+
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+/* Number */
+
 .impact__number {
     font-size: 45px;
+    line-height: 68px;
     letter-spacing: 1px;
     text-transform: uppercase;
-
-    margin-bottom: 10px;
+    color: #FFFFFF;
 }
+
+/* Paragraph */
 
 .impact__paragraph {
     font-size: 12px;
     line-height: 18px;
-    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #FBDCC5;
 }
 
-/* More */
+/* Header */
 
-.impact__more>* {
-    flex: 0 0 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.impact__header {
+    grid-row: 1 / 2;
+    grid-column: 5 / 7;
 
-    border-top: 1px solid #fff;
-}
+    display: grid;
+    place-content: center;
+    text-align: center;
 
-.impact__link {
     font-size: 12px;
     line-height: 18px;
-    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #FBDCC5;
+}
 
+/* Link */
+
+.impact__link {
+    grid-row: 2 / 3;
+    grid-column: 5 / 7;
+
+    display: grid;
+    place-content: center;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #FFFFFF;
 }

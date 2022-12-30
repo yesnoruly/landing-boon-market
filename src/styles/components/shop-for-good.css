@@ -1,0 +1,27 @@
+.shop-for-good {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 60px 25px;
+}
+
+/* Title */
+
+.shop-for-good__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    color: #343434;
+
+    text-align: center;
+}
+
+/* Grid */
+
+.shop-for-good__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+    margin-top: 107px;
+}

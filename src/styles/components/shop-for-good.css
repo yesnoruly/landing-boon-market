@@ -1,4 +1,10 @@
 .shop-for-good {
+    background: #F7F5F2;
+}
+
+/* Container */
+
+.shop-for-good__container {
     max-width: 1370px;
     margin: 0 auto;
     padding: 60px 25px;

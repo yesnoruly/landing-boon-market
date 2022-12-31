@@ -9,7 +9,7 @@
     height: 850px;
     text-align: center;
 
-    background-image: url('./image/main-page.jpg');
+    background-image: url('../image/main-page.jpg');
     background-size: cover;
 }
 

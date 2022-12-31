@@ -6,8 +6,8 @@
 
 /* Components */
 
-@import 'components/footer.css';
 @import 'components/header.css';
+@import 'components/footer.css';
 @import 'components/page.css';
 @import 'components/main-page.css';
 @import 'components/impact.css';

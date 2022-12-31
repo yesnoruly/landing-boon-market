@@ -1,1 +1,143 @@
-/* Footer */
+.footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Left */
+
+.footer__left {
+    background-color: #708D92;
+
+    display: grid;
+    justify-content: end;
+
+    padding: 80px 60px 80px 0;
+}
+
+/* Right */
+
+.footer__right {
+    background-color: #F7F5F2;
+
+    padding: 80px 0 56px 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Table */
+
+.footer__table {
+    display: grid;
+    grid-template: 1fr max-content / 1fr 1fr 1fr;
+
+    max-width: 370px;
+}
+
+.footer__table,
+.footer__logo,
+.footer__definition,
+.footer__paragraph {
+    border: 1px solid #fff;
+}
+
+/* Image */
+
+.footer__logo {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+}
+
+/* Definiton */
+
+.footer__definition {
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 21px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+    padding: 5px;
+}
+
+/* Paragraph */
+
+.footer__paragraph {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+    padding: 10px;
+}
+
+/* Copyright */
+
+.footer__copyright {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-top: 5px;
+}
+
+/* Column */
+
+.footer__col {
+    flex: 0 1 50%;
+}
+
+/* Title */
+
+.footer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #343434;
+
+    margin-bottom: 10px;
+}
+
+/* Item */
+
+.footer__item a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #747474;
+    margin-bottom: 15px;
+}
+
+/* 
+
+.footer__list {}
+
+.footer__logo {}
+
+.footer__paragraph {}
+
+.footer__table {}

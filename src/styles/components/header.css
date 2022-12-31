@@ -5,12 +5,26 @@
     grid-auto-flow: column;
     grid-template-columns: repeat(3, 1fr);
     
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    width: 100%; */
+    width: 100%;
     
     margin: 0 auto;
     padding: 50px;
+    z-index: 999;
+}
+
+.header--fill {
+    background-color: #f7f5f2;
+    padding: 10px;
+}
+
+.header--fill .header__logo {
+    font-size: 30px;
+}
+
+.header--fill .header__logo--second {
+    font-size: 15px;
 }
 
 /* Logo */

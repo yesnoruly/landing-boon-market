@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.form input {
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    color: #000000;
+
+    padding: 5px 20px;
+}
+
+/* First name */
+
+.form__first-name {
+    max-width: 230px;
+}
+
+/* Email */
+
+.form__email {
+    max-width: 300px;
+}
+
+/* Button */
+
+.form__button {
+    background: #343434;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    padding: 20px;
+}

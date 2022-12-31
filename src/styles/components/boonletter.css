@@ -1,0 +1,33 @@
+.boonletter {
+    padding: 70px 50px;
+    max-width: 646px;
+    margin: 0 auto;
+}
+
+/* Title */
+
+.boonletter__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #343434;
+}
+
+/* Paragraph */
+
+.boonletter__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #747474;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Form */
+
+.boonletter__form {
+    margin-top: 32px;
+}

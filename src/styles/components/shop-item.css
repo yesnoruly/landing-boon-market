@@ -1,9 +1,13 @@
 .shop-item {
-    /* max-width: 350px; */
-
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: auto 1fr auto auto;
+}
+
+/* Img */
+
+.shop-item__img {
+    max-width: 100%;
 }
 
 /* Subtitle */

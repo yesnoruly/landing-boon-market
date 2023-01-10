@@ -6,11 +6,18 @@
     align-items: center;
     flex-direction: column;
 
-    height: 850px;
+    min-height: 850px;
     text-align: center;
 
     background-image: url('../image/main-page.jpg');
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .main-page {
+        padding: 0 25px;
+        min-height: 500px;
+    }
 }
 
 /* Title */
@@ -24,6 +31,12 @@
     letter-spacing: 1px;
 
     color: #343434;
+}
+
+@media (max-width: 768px) {
+    .main-page__title {
+        font-size: 60px;
+    }
 }
 
 /* Link */

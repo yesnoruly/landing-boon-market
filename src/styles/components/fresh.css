@@ -25,6 +25,21 @@
     gap: 40px;
 }
 
+@media (max-width: 768px) {
+    .fresh-item__container {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fresh-item__container {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+    }
+}
+
 /* Item */
 
 .fresh__item:nth-child(odd) {
@@ -35,6 +50,12 @@
 
 .fresh-item__img img {
     max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .fresh-item__img {
+        /* display: none; */
+    }
 }
 
 /* Content */
@@ -54,7 +75,7 @@
 .fresh-item__title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
     color: #343434;
 
     margin-top: 15px;

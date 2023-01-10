@@ -4,14 +4,26 @@
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .boonletter {
+        padding: 30px 10px;
+    }
+}
+
 /* Title */
 
 .boonletter__title {
     font-weight: 700;
     font-size: 40px;
-    line-height: 45px;
+    line-height: 30px;
     text-align: center;
     color: #343434;
+}
+
+@media (max-width: 786px) {
+    .boonletter__title {
+        font-size: 35px;
+    }
 }
 
 /* Paragraph */

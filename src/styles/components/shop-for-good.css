@@ -10,6 +10,12 @@
     padding: 60px 25px;
 }
 
+@media (max-width: 768px) {
+    .shop-for-good__container {
+        padding: 40px 10px;
+    }
+}
+
 /* Title */
 
 .shop-for-good__title {
@@ -21,6 +27,12 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .shop-for-good__title {
+        font-size: 35px;
+    }
+}
+
 /* Grid */
 
 .shop-for-good__grid {
@@ -30,4 +42,10 @@
     justify-content: center;
 
     margin-top: 107px;
+}
+
+@media (max-width: 768px) {
+    .shop-for-good__grid {
+        margin-top: 50px;
+    }
 }

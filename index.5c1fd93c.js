@@ -1,2 +1,0 @@
-const e=document.querySelectorAll(".shop__btn"),t=document.querySelectorAll(".shop-item");let o="shop__btn--active";e.forEach((s=>{s.addEventListener("click",(()=>{var c;e.forEach((e=>{e.classList.remove("shop__btn--active")})),c=s.id,o=c,t.forEach((e=>{e.classList.contains(o)?e.classList.remove("hide"):e.classList.add("hide")})),s.classList.add("shop__btn--active")}))}));const s=document.querySelector(".header");window.onscroll=function(){s.classList.toggle("header--fill",s.scrollTop>50||document.documentElement.scrollTop>50)};
-//# sourceMappingURL=index.5c1fd93c.js.map

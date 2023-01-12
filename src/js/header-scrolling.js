@@ -1,17 +1,18 @@
-const header = document.querySelector('.header');
+const header = document.querySelector('header');
 const mq = window.matchMedia("(min-width: 500px)"); // Device width
 
-if (mq.matches) {
-    window.addEventListener('scroll', windowScroll)
-}
+window.addEventListener('scroll', windowScroll)
+
 
 function windowScroll() {
-    const scroll = document.documentElement.scrollTop
+    const distance = header.getBoundingClientRect().top + window.scrollY; // Get the distance between header and Y-coordinate (top of documents)
 
-    if (scroll < 1) {
-        header.classList.remove("header--scrolled");
+    if (distance > 1) {
+        header.classList.add('header--scrolled');
     } else {
-        header.classList.add("header--scrolled")
+        header.classList.remove('header--scrolled')
     }
+
+    
 }
 

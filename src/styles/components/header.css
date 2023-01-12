@@ -8,6 +8,8 @@
     margin: 0 auto;
     padding: 50px;
     z-index: 2;
+
+    transition: ease 0.3s;
 }
 
 .header--scrolled {
@@ -51,15 +53,19 @@
     flex-direction: column;
     align-items: center;
     z-index: 100;
+
+    transition: ease 0.3s;
 }
 
 .header__logo--first {
     letter-spacing: 8;
+    transition: ease 0.3s;
 }
 
 .header__logo--second {
     font-size: 30px;
     font-weight: 300;
+    transition: ease 0.3s;
 }
 
 @media (max-width: 768px) {
@@ -98,7 +104,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* position: initial; */
     }
 
     .header__burger {

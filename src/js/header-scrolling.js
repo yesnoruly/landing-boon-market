@@ -7,7 +7,7 @@ window.addEventListener('scroll', windowScroll)
 function windowScroll() {
     const distance = header.getBoundingClientRect().top + window.scrollY; // Get the distance between header and Y-coordinate (top of documents)
 
-    if (distance > 1) {
+    if (distance > 50) {
         header.classList.add('header--scrolled');
     } else {
         header.classList.remove('header--scrolled')

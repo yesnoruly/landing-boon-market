@@ -8,10 +8,10 @@ if (mq.matches) {
 function windowScroll() {
     const scroll = document.documentElement.scrollTop
 
-    if (scroll > 50) {
-        header.classList.add("header--scrolled");
+    if (scroll < 1) {
+        header.classList.remove("header--scrolled");
     } else {
-        header.classList.remove("header--scrolled")
+        header.classList.add("header--scrolled")
     }
 }
 

@@ -12,7 +12,5 @@ function windowScroll() {
     } else {
         header.classList.remove('header--scrolled')
     }
-
-    
 }
 

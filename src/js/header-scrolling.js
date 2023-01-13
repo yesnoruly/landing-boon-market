@@ -1,11 +1,9 @@
 const header = document.querySelector('header');
-const mq = window.matchMedia("(min-width: 500px)"); // Device width
 
-window.addEventListener('scroll', windowScroll)
-
+window.addEventListener('scroll', windowScroll);
 
 function windowScroll() {
-    const distance = header.getBoundingClientRect().top + window.scrollY; // Get the distance between header and Y-coordinate (top of documents)
+    const distance = header.getBoundingClientRect().top + header.ownerDocument.defaultView.scrollY; // Get the distance between header and Y-coordinate (viewport)
 
     if (distance > 50) {
         header.classList.add('header--scrolled');

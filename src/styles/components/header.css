@@ -12,6 +12,24 @@
     transition: ease 0.3s;
 }
 
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+        
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+
 .header--scrolled {
     background-color: #f7f5f2d6;
     padding: 10px 50px;
@@ -23,20 +41,6 @@
 
 .header--scrolled .header__logo--second {
     font-size: 15px;
-}
-
-@media (max-width: 768px) {
-    .header {
-        padding: 10px;
-    }
-}
-
-@media (min-width: 768px) {
-    .header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
 }
 
 /* Logo */

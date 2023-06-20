@@ -31,14 +31,14 @@
     .header--scrolled {
         background-color: #f7f5f2d6;
         padding-top: 10px;
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 .header--scrolled {
     background-color: #f7f5f2d6;
     padding-top: 10px;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header--scrolled .header__logo {
